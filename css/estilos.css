@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif; /* Cambiar el tipo de letra */
+}
+
+.topDiv{
+    height: 40px;
+    border-radius: 20px;
+    background-color: lightblue;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bottDiv{
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: lightblue;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrar horizontalmente */
+    text-align: center; /* Alinear el texto al centro */
+
+    margin: 0 auto; /* Establecer márgenes izquierdo y derecho como auto */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: rgb(70, 101, 111); /* Cambia el color del texto del hipervínculo */
+    font-weight: bold; /* Agrega negritas */
+}
+
+a:hover {
+    color: rgb(97, 147, 163); /* Cambia el color del texto del hipervínculo en hover */
+}
+
+.registrarse{
+    text-decoration: none; /* Elimina el subrayado */
+    color: rgb(190, 229, 243); /* Cambia el color del texto del hipervínculo */
+    font-weight: bold; /* Agrega negritas */
+}
+
+
+
+.container {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.elemento1 {
+    width: 50%;
+    height: 400px;
+    background-image: url('imagenes/img1.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex; /* Usar el modelo de caja flexible */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    text-align: center; /* Alinear el texto al centro */
+    padding: 40px;
+    border-radius: 60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+}
+
+.elemento2 {
+    width: 50%;
+    height: auto;
+    background-color: rgb(70, 101, 111);
+    color: white;
+    font-weight: bold; /* Agrega negritas */
+    display: flex; /* Usar el modelo de caja flexible */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    text-align: center; /* Alinear el texto al centro */
+    padding: 40px;
+    border-radius: 60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+}
+
+.elemento3{
+    width: 50%;
+    height: auto;
+    background-color: rgb(70, 101, 111);
+    color: white;
+    font-weight: bold; /* Agrega negritas */
+    display: flex; /* Usar el modelo de caja flexible */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    text-align: center; /* Alinear el texto al centro */
+    padding: 40px;
+    border-radius: 60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
